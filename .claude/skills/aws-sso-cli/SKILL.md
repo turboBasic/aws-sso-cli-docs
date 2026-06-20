@@ -28,14 +28,16 @@ You are a knowledge base lookup skill for **aws-sso-cli**. The documentation liv
 
 ## Topic routing
 
-| Topic                     | Primary file       |
-| ------------------------- | ------------------ |
-| Commands & flags          | `src/commands.md`  |
-| Configuration options     | `src/config.md`    |
-| FAQ / errors / troubleshooting | `src/FAQ.md`  |
-| Getting started           | `src/quickstart.md`|
-| ECS credential server     | `src/ecs-server.md`|
-| Security                  | `src/security.md`  |
-| Remote SSH                | `src/remote-ssh.md`|
-| aws-vault comparison      | `src/aws-vault.md` |
-| Setup wizard              | `src/wizard.md`    |
+| Topic                     | Primary file            |
+| ------------------------- | ----------------------- |
+| Commands & flags          | `src/commands.md`       |
+| Configuration options     | `src/config.md`         |
+| FAQ / errors / troubleshooting | `src/FAQ.md`       |
+| Known bugs & workarounds  | `src/known-issues.md`   |
+| v1 → v2 migration         | `src/known-issues.md`   |
+| Getting started           | `src/quickstart.md`     |
+| ECS credential server     | `src/ecs-server.md`     |
+| Security                  | `src/security.md`       |
+| Remote SSH                | `src/remote-ssh.md`     |
+| aws-vault comparison      | `src/aws-vault.md`      |
+| Setup wizard              | `src/wizard.md`         |

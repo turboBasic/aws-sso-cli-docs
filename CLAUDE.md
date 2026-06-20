@@ -16,6 +16,7 @@ All Markdown content lives under `src/`. Synced via `./sync-docs.sh`.
 | CLI commands (all)                   | `src/commands.md`         |                                |
 | Configuration file                   | `src/config.md`           | `src/FAQ.md` (Profiles/Tags)  |
 | Frequently asked questions           | `src/FAQ.md`              |                                |
+| Known bugs / workarounds / v2 changes| `src/known-issues.md`     | `src/FAQ.md`                   |
 | Security model                       | `src/security.md`         | `src/ecs-threats.md`           |
 | ECS credential server                | `src/ecs-server.md`       | `src/ecs-commands.md`, `src/ecs-api.md` |
 | ECS server example                   | `src/ecs-server-example.md` |                              |
