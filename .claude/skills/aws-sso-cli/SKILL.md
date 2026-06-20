@@ -8,17 +8,18 @@ You are a knowledge base lookup skill for **aws-sso-cli**. The documentation liv
 
 ## Steps
 
-1. Read the navigation table at the project root:
-   `CLAUDE.md`
-   (path: /Users/aamelnyk/00-projects/personal/turboBasic/aws-sso-cli-docs/CLAUDE.md)
+1. Derive the repo root: this file lives at `<repo-root>/.claude/skills/aws-sso-cli/SKILL.md`.
+   Strip `/.claude/skills/aws-sso-cli/SKILL.md` from the path this file was loaded from to get `<repo-root>`.
 
-2. Based on the user's question, identify which file(s) in `src/` are relevant using the lookup table.
+2. Read the navigation table:
+   `<repo-root>/CLAUDE.md`
 
-3. Read those file(s) from:
-   `/Users/aamelnyk/00-projects/personal/turboBasic/aws-sso-cli-docs/src/`
+3. Based on the user's question, identify which file(s) in `src/` are relevant using the lookup table.
 
-4. If the lookup table doesn't clearly point to the right file, grep across `src/` for the relevant keyword:
-   `grep -rn "<keyword>" /Users/aamelnyk/00-projects/personal/turboBasic/aws-sso-cli-docs/src/`
+4. Read those file(s) from `<repo-root>/src/`.
+
+5. If the lookup table doesn't clearly point to the right file, grep across `src/` for the relevant keyword:
+   `grep -rn "<keyword>" <repo-root>/src/`
 
 5. If the docs don't fully answer the question (implementation details, undocumented behavior, default values not listed), fetch source code from the upstream repo:
    `https://github.com/synfinatic/aws-sso-cli` — look in `cmd/aws-sso/` for CLI command implementations.
