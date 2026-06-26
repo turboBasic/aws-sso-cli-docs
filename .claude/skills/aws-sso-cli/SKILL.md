@@ -8,14 +8,14 @@ You are a knowledge base lookup skill for **aws-sso-cli**. The documentation liv
 
 ## Steps
 
-The knowledge base lives at `~/00-projects/personal/turboBasic/aws-sso-cli-docs`.
+The knowledge base lives at the skill's repo root, `${CLAUDE_SKILL_DIR}/../../..`.
 
 1. Based on the user's question, identify which file(s) in `src/` are relevant using the topic routing table below.
 
-2. Read those file(s) from `~/00-projects/personal/turboBasic/aws-sso-cli-docs/src/`.
+2. Read those file(s) from `${CLAUDE_SKILL_DIR}/../../../src/`.
 
 3. If the routing table doesn't clearly point to the right file, grep across `src/` for the relevant keyword:
-   `grep -rn "<keyword>" ~/00-projects/personal/turboBasic/aws-sso-cli-docs/src/`
+   `grep -rn "<keyword>" ${CLAUDE_SKILL_DIR}/../../../src/`
 
 4. If the docs don't fully answer the question (implementation details, undocumented behavior, default values not listed), fetch source code from the upstream repo:
    `https://github.com/synfinatic/aws-sso-cli` — look in `cmd/aws-sso/` for CLI command implementations.
